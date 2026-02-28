@@ -1,0 +1,139 @@
+/*
+*Cinnamon.css stuff
+*Partially stolen from https://github.com/B00merang-Project/Windows-Whistler/blob/master/cinnamon/cinnamon.css and adapta-gtk-theme
+*/
+
+.menu {
+	padding: 0;
+	background-gradient-end:  #1c3c5f;
+	background-gradient-start:  #FFFF;
+	background-gradient-direction: vertical;
+	color: white
+}
+#panelLeft .applet-box:first-child {
+  background: url("menu.png");
+  border-image: none;
+  background-position: center center;
+  transition-duration: 300;
+  width: 40px;
+  background-color: inherit;
+  color: rgba(255,0,0,0) !important;
+}
+#panelLeft .applet-box:first-child:hover {
+  transition-duration: 200; background: url("menu2.png");
+  border-image: none;
+}
+
+.switcher-list .item-box:selected {
+  background-color: #92a7be;
+}
+
+.switcher-list .thumbnail {
+  width: 256px;
+}
+.switcher-list .thumbnail-box {
+  padding: 2px;
+  spacing: 4px;
+}
+
+.grouped-window-list-thumbnail-label {
+  padding-left: 4px;
+}
+.grouped-window-list-number-label {
+  font-size: 0.9em;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+.grouped-window-list-badge {
+  border-radius: 256px;
+  background-color: #000000;
+}
+.grouped-window-list-thumbnail-menu {
+  padding: 2px;
+  border: none;
+  border-radius: 2px;
+  color: #CFD8DC;
+  background: black;
+}
+
+.toggle-switch-us, .toggle-switch-intl {
+  background-image: url("checkbox-off.png");
+}
+
+.toggle-switch-us:checked, .toggle-switch-intl:checked {
+  background-image: url("checkbox.png");
+}
+.check-box StBin {
+  width: 24px;
+  height: 18px;
+  background-image: url("checkbox-off.png");
+}
+
+.check-box:focus StBin {
+  background-image: url("checkbox-off-focus.png");
+}
+
+.check-box:checked StBin {
+  background-image: url("checkbox.png");
+}
+
+.check-box:focus:checked StBin {
+  background-image: url("checkbox-focus.png");
+}
+
+.check-box StLabel {
+  font-weight: normal;
+}
+
+.radiobutton CinnamonGenericContainer {
+  spacing: .2em;
+  height: 26px;
+  padding-top: 2px;
+}
+
+.radiobutton StBin {
+  width: 22px;
+  height: 22px;
+  background-image: url("radio-unselected.png");
+  border-radius: 15px;
+}
+
+.radiobutton:focus StBin {
+  background-image: url("radio-unselected.png");
+}
+
+.radiobutton:checked StBin {
+  background-image: url("radio-selected.png");
+}
+
+.radiobutton:focus:checked StBin {
+  background-image: url("radio-selected.png");
+}
+
+
+#panelLeft .applet-box:first-child {
+  font-style: bold;
+  spacing-top: 2px;
+  border-image: url('menu-applet.png') 10 12 10 12;
+}
+
+.workspace-close-button {
+  background-image: url("close.png");
+  height: 34px;
+  width: 34px;
+  -cinnamon-close-overlap: 20px;
+}
+
+.window-close:hover,
+.window-close:active {
+  background-image: url("close-hover.png");
+}
+
+#panel {
+  color: #000;
+  background-gradient-end:  #92a7be;
+  background-gradient-start:  #f5f7f9;
+  background-gradient-direction: vertical;
+  font-weight: normal;
+  height: 32px;
+}

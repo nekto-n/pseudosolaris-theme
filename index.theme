@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Solaris-N
+Comment=Solaris 10 theme, slightly tweaked from B00merang's one
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+Type=X-GNOME-Metatheme
+GtkTheme=Solaris N
+ButtonLayout=menu:minimize,maximize,close
