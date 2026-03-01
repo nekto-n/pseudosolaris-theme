@@ -3,6 +3,23 @@
 *Partially stolen from https://github.com/B00merang-Project/Windows-Whistler/blob/master/cinnamon/cinnamon.css and adapta-gtk-theme
 */
 
+.notification-button:active, .notification-icon-button:active,
+.hotplug-notification-item:active, .hotplug-resident-eject-button:active,
+.modal-dialog-button:active, .modal-dialog-button:pressed {
+  border-image: url('border-panelbutton-active') 5;
+}
+.notification-button:hover,
+.notification-icon-button:hover, .hotplug-notification-item:hover,
+.hotplug-resident-eject-button:hover, .modal-dialog-button:hover {
+  border-image: url('button-prelight.png') 5;
+}
+
+.notification-button:focus,
+.notification-icon-button:focus, .hotplug-notification-item:focus,
+.modal-dialog-button:focus {
+  border-image: url('button-pressed.png') 5;
+}
+
 .menu {
 	padding: 0;
 	background-gradient-end:  #1c3c5f;
@@ -136,4 +153,27 @@
   background-gradient-direction: vertical;
   font-weight: normal;
   height: 32px;
+}
+#notification {
+  border: 1px solid #767676;
+  border-radius: 3px;
+  padding: 6px 12px;
+  background-gradient-start: #ffffff;
+  background-gradient-end: #e4e5f0;
+  background-gradient-direction: vertical;
+  color: black;
+  font-size: 8.5pt;
+  font-weight: normal;
+  text-align: center;
+  spacing-rows: 10px;
+  spacing-columns: 10px;
+  margin-from-right-edge-of-screen: 19px;
+  margin-from-top-edge-of-screen: 30px;
+  width: 27em;
+}
+.notification-button {
+  border-radius: 18px;
+  font-size: 11pt;
+  padding: 4px 42px 5px;
+  border-image: url('menu-applet.png') 5;
 }
