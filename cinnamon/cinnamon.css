@@ -177,3 +177,35 @@
   padding: 4px 42px 5px;
   border-image: url('menu-applet.png') 5;
 }
+
+
+.calendar-change-month-back {
+  width: 18px;
+  height: 12px;
+  background-image: url("arrow-left.png");
+  border-radius: 4px;
+  border: 1px solid rgba(0,0,0,0);
+}
+
+.calendar-change-month-back:rtl {
+  background-image: url("arrow-right.png");
+}
+
+.calendar-change-month-back:hover {
+  background-color: rgba(255,255,255,0.5);
+}
+
+.calendar-change-month-forward {
+  width: 18px;
+  height: 12px;
+  background-image: url("arrow-right.png");
+  border-radius: 4px;
+  border: 1px solid rgba(0,0,0,0);
+}
+
+.calendar-change-month-forward:rtl {
+  background-image: url("arrow-left.png");
+}
+.calendar-change-month-forward:hover {
+  background-color: rgba(255,255,255,0.5);
+}
